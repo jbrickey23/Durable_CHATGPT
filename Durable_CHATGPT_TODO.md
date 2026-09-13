@@ -1,14 +1,14 @@
 # Durable_CHATGPT — TODO
 
 ## Open work
-
-### DCHAT-TODO-002
-- **Priority:** HIGH
-- **Status:** OPEN
-- **Description:** Exercise the durable ChatGPT/GitHub workflow end-to-end through a small meaningful task or decision, reconciliation to GitHub, and restoration in a fresh conversation.
-- **Dependencies / blockers:** None established.
+None established.
 
 ## Completed
+
+### DCHAT-TODO-002
+- **Status:** COMPLETE
+- **Description:** Exercise the durable ChatGPT/GitHub workflow end-to-end through a small meaningful task or decision, reconciliation to GitHub, and restoration in a fresh conversation.
+- **Result:** Completed using the Decision Log ordering change as the exercise: the durable rule was established that decisions are captured newest first, reconciled into GitHub, and then successfully restored in a fresh conversation.
 
 ### DCHAT-TODO-001
 - **Status:** COMPLETE
