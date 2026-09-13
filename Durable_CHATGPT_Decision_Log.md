@@ -1,6 +1,12 @@
 # Durable_CHATGPT — Decision Log
 Decisions are captured newest first
 
+## DCHAT-DEC-005 — Naming consistency is an operating principle
+- **Status:** CURRENT
+- **Decision:** Maintain canonical naming consistently across durable state, ChatGPT working sessions, files, components, tasks, and commands. Informal aliases and descriptive domain labels must resolve to an existing canonical name and must not silently establish a new canonical name.
+- **Rationale:** Inconsistent names create ambiguity about whether references identify the same project/component or a different one, weakening restoration and durable-state reliability.
+- **Consequence:** Use established canonical names by default. If a user uses an informal or alternate name, map it to the canonical name unless an explicit rename is requested. Renames should be intentional and reconciled across affected durable records.
+
 ## DCHAT-DEC-004 — Project is a durable-workflow learning sandbox
 - **Status:** CURRENT
 - **Decision:** Use `Durable_CHATGPT` primarily to learn, practice, and demonstrate a GitHub-backed durable-state workflow with ChatGPT, rather than treating creation of an application as the current objective.
