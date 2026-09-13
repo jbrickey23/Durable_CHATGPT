@@ -9,7 +9,9 @@
 - The `Durable_CHATGPT` ChatGPT Project has been created and its Project Instructions have been configured to use GitHub as the durable source of truth.
 
 ## Purpose and scope
-This repository is the durable source of truth for a GitHub-backed ChatGPT project. ChatGPT conversations are working sessions; durable project state belongs in this repository.
+`Durable_CHATGPT` is a learning and sandbox project for becoming familiar with a GitHub-backed durable-state workflow in ChatGPT. Its purpose is to develop practical understanding of how ChatGPT and GitHub can be used together to develop software, ideas, projects, passions, and other ongoing work while keeping durable project truth outside any single conversation.
+
+The primary deliverable is demonstrated understanding and confidence with the workflow: restore project state from GitHub, use ChatGPT as a working session, distinguish transient conversation from durable state, reconcile meaningful changes back to GitHub, and successfully continue the work later or in a fresh chat.
 
 ## Repository/system architecture
 Current repository structure is minimal:
@@ -19,7 +21,7 @@ Current repository structure is minimal:
 - `Durable_CHATGPT_Decision_Log.md`
 - `Durable_CHATGPT_New_Chat_Bootstrap_Prompt.md`
 
-No application architecture, source tree, CI/CD workflow, or specialized project records have been established yet.
+No application architecture, source tree, CI/CD workflow, or specialized project records have been established yet. The repository itself is currently the learning vehicle rather than an application product.
 
 ## Current rules and constraints
 - Restore current repository state before relying on prior chat context.
@@ -36,14 +38,15 @@ No application architecture, source tree, CI/CD workflow, or specialized project
 - Four core durable-state files initialized and verified.
 - ChatGPT Project Instructions configured for `Durable_CHATGPT`.
 - Durable initialization is complete enough for normal use and fresh-chat restoration.
-- No substantive application implementation exists; the repository currently provides the persistence/durable-state workflow only.
+- `DCHAT-TODO-001` is complete: the project's current purpose and primary deliverable have been defined as learning and demonstrating the durable ChatGPT/GitHub workflow.
+- No substantive application implementation exists or is currently required; the repository is intentionally serving as a workflow-learning sandbox.
 
 ## Open issues and unresolved state
-- `DCHAT-TODO-001` remains open: the actual long-term project purpose, application scope, architecture, requirements, and first substantive deliverable have not yet been defined beyond the persistence workflow.
-- No project-specific blockers, deferred implementation scope, or substantive completed deliverables have been established.
+- `DCHAT-TODO-002` is open: exercise the durable workflow end-to-end through a small project decision/task, reconciliation, and fresh-chat restoration so the workflow is learned through use.
+- No project-specific blockers or deferred implementation scope have been established.
 
 ## Immediate continuation point
-Define the project's substantive purpose, scope, requirements, and first deliverable. Do not assume what the project should build. Record resulting decisions and actionable work in the durable records.
+Exercise the workflow rather than adding unnecessary infrastructure: choose a small meaningful project task or decision, carry it through in ChatGPT, decide what belongs in durable state, reconcile it into GitHub, then verify that a fresh conversation can restore and continue correctly.
 
 ## Restore instructions
 Read, in order:
