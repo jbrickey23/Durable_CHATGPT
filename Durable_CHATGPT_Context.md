@@ -1,12 +1,12 @@
 # Durable_CHATGPT — Context
 
 ## Current authoritative state
-- Project: Durable_CHATGPT.
+- Project: `Durable_CHATGPT`.
 - Repository: `JBrickey23/Durable_CHATGPT`.
 - Default branch: `main`.
-- Repository is public and currently contains only `README.md`.
-- GitHub read/write capability has been verified; repository permissions report `push` and `admin` access.
-- Persistent project-state files are being established now.
+- Repository is public and contains `README.md` plus the four core durable-state files listed below.
+- GitHub read/write capability has been verified; repository permissions report `push` and `admin` access, and durable-state writes have succeeded.
+- The `Durable_CHATGPT` ChatGPT Project has been created and its Project Instructions have been configured to use GitHub as the durable source of truth.
 
 ## Purpose and scope
 This repository is the durable source of truth for a GitHub-backed ChatGPT project. ChatGPT conversations are working sessions; durable project state belongs in this repository.
@@ -27,19 +27,23 @@ No application architecture, source tree, CI/CD workflow, or specialized project
 - Preserve uncertainty: planned, proposed, approved, implemented, executed, and validated are distinct states.
 - Before materially editing an existing file, retrieve its current contents and SHA and reconcile from that version.
 - Keep durable records concise and actionable; do not create documentation bureaucracy without a need.
+- Record important decisions in the Decision Log and unfinished actionable work in TODO using durable task IDs.
+- Verify important GitHub writes after making them.
 
 ## Current implementation/work state
 - Repository inspection completed.
-- Read/write capability verified.
-- Four durable state files are being initialized.
-- No application implementation exists in the repository beyond the existing README.
+- GitHub read/write capability verified.
+- Four core durable-state files initialized and verified.
+- ChatGPT Project Instructions configured for `Durable_CHATGPT`.
+- Durable initialization is complete enough for normal use and fresh-chat restoration.
+- No substantive application implementation exists; the repository currently provides the persistence/durable-state workflow only.
 
 ## Open issues and unresolved state
-- The actual long-term project purpose, application scope, architecture, and implementation requirements have not yet been defined beyond the persistence workflow.
-- No project-specific completed work, blockers, or deferred implementation scope has been established.
+- `DCHAT-TODO-001` remains open: the actual long-term project purpose, application scope, architecture, requirements, and first substantive deliverable have not yet been defined beyond the persistence workflow.
+- No project-specific blockers, deferred implementation scope, or substantive completed deliverables have been established.
 
 ## Immediate continuation point
-Begin substantive project definition/work in a future session. First restore the repository state using the bootstrap file, then record meaningful requirements, decisions, and tasks as they become known.
+Define the project's substantive purpose, scope, requirements, and first deliverable. Do not assume what the project should build. Record resulting decisions and actionable work in the durable records.
 
 ## Restore instructions
 Read, in order:
