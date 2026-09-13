@@ -17,3 +17,9 @@
 - **Decision:** Preserve the existing minimal repository and add durable state without unnecessary reorganization.
 - **Rationale:** The repository currently contains only a README and has no application architecture or established workflow to reorganize.
 - **Consequence:** Additional structure will be introduced only when actual project needs justify it.
+
+## DCHAT-DEC-004 — Project is a durable-workflow learning sandbox
+- **Status:** CURRENT
+- **Decision:** Use `Durable_CHATGPT` primarily to learn, practice, and demonstrate a GitHub-backed durable-state workflow with ChatGPT, rather than treating creation of an application as the current objective.
+- **Rationale:** The present goal is to become comfortable using ChatGPT and GitHub together for software, ideas, projects, passions, and other ongoing work.
+- **Consequence:** Success is measured by demonstrated ability to restore state, work in disposable ChatGPT sessions, identify durable information, reconcile it to GitHub, and continue accurately in later or fresh conversations. New application structure should be added only when a learning exercise or future project actually requires it.
