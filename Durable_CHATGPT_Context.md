@@ -39,14 +39,15 @@ No application architecture, source tree, CI/CD workflow, or specialized project
 - ChatGPT Project Instructions configured for `Durable_CHATGPT`.
 - Durable initialization is complete enough for normal use and fresh-chat restoration.
 - `DCHAT-TODO-001` is complete: the project's current purpose and primary deliverable have been defined as learning and demonstrating the durable ChatGPT/GitHub workflow.
+- `DCHAT-TODO-002` is complete: the workflow was exercised end-to-end using the Decision Log newest-first ordering change, reconciliation to GitHub, and fresh-chat restoration.
 - No substantive application implementation exists or is currently required; the repository is intentionally serving as a workflow-learning sandbox.
 
 ## Open issues and unresolved state
-- `DCHAT-TODO-002` is open: exercise the durable workflow end-to-end through a small project decision/task, reconciliation, and fresh-chat restoration so the workflow is learned through use.
+- No open durable tasks are currently established.
 - No project-specific blockers or deferred implementation scope have been established.
 
 ## Immediate continuation point
-Exercise the workflow rather than adding unnecessary infrastructure: choose a small meaningful project task or decision, carry it through in ChatGPT, decide what belongs in durable state, reconcile it into GitHub, then verify that a fresh conversation can restore and continue correctly.
+The initial durable-workflow exercise is complete. Continue by choosing the next useful learning exercise or project task when needed; the next unused durable task ID is `DCHAT-TODO-003`.
 
 ## Restore instructions
 Read, in order:
