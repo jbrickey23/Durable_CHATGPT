@@ -25,12 +25,14 @@ Verify GitHub access before doing project work. Read the latest repository state
 Always use the latest repository contents. Do not let this bootstrap or an old conversation override newer repository evidence.
 
 ## Current checkpoint
-The repository is a minimal durable-project repository. Repository inspection and GitHub read/write capability have been verified. The four core durable-state files have been initialized. No application implementation, architecture, CI/CD workflow, or specialized project records exist yet.
+The repository is a minimal durable-project learning sandbox. Repository inspection and GitHub read/write capability have been verified, the four core durable-state files have been initialized, and the project purpose has been defined.
+
+The current purpose is to learn, practice, and demonstrate how ChatGPT and GitHub can work together with GitHub as durable project truth. The primary deliverable is practical understanding and confidence using this workflow for software, ideas, projects, passions, and other ongoing work. No application implementation, architecture, CI/CD workflow, or specialized project records are currently required.
 
 ## Do not repeat
 - Do not recreate the repository.
 - Do not reorganize the repository without an actual need.
-- Do not treat the initial persistence setup as unfinished merely because a new chat is starting.
+- Do not treat the initial persistence setup or purpose-definition work as unfinished merely because a new chat is starting.
 - Do not invent application requirements, architecture, completed work, or decisions that are not supported by current repository evidence.
 
 ## Current rules
@@ -41,12 +43,12 @@ The repository is a minimal durable-project repository. Repository inspection an
 - Use stable task IDs for meaningful unfinished work.
 
 ## Open work
-- `DCHAT-TODO-001` — Define the actual long-term purpose, scope, requirements, and first substantive deliverable for Durable_CHATGPT beyond the persistence workflow.
+- `DCHAT-TODO-002` — Exercise the durable ChatGPT/GitHub workflow end-to-end through a small meaningful task or decision, reconciliation to GitHub, and restoration in a fresh conversation.
 
-Next unused task ID: `DCHAT-TODO-002`.
+Next unused task ID: `DCHAT-TODO-003`.
 
 ## Immediate continuation
-Continue by clarifying and recording the project's substantive purpose and first deliverable. Do not assume what the project should build.
+Choose a small meaningful task or decision and use it to practice the complete durable workflow: work through it in ChatGPT, identify what belongs in durable state, reconcile it to GitHub, and then verify restoration/continuation from a fresh conversation.
 
 ## Before future handoff
 When transferring to another chat, retrieve the latest repository state, reconcile work completed in the current session, update Context/TODO/Decision Log/Bootstrap and any affected records, verify writes, and perform a cross-file consistency check before handing off.
