@@ -31,6 +31,7 @@ No application architecture, source tree, CI/CD workflow, or specialized project
 - Keep durable records concise and actionable; do not create documentation bureaucracy without a need.
 - Record important decisions in the Decision Log and unfinished actionable work in TODO using durable task IDs.
 - Verify important GitHub writes after making them.
+- Maintain naming consistency as an operating principle: use the canonical project, repository, component, file, task, and command names established in durable state. Descriptive shorthand or domain labels must not silently become new canonical names. When a user uses an alias or informal name, resolve it to the established canonical name unless an explicit rename is requested.
 
 ## Current implementation/work state
 - Repository inspection completed.
